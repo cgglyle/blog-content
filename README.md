@@ -20,4 +20,4 @@ Hi：
 请不要将本博客的内容转发到 **CSDN**、**百度系列**、**简书**等**中国大陆境内**可以访问的无良博客平台，及任何形式的**内容农场**。
 
 ## 许可
-本仓库中内容部分采用 [CC-BY-NC-ND-4.0](https://creativecommons.org/licenses/by-nc/4.0/) 许可，即**署名-非商业性使用-禁止演绎 4.0 国际**协议。
+本仓库中内容部分采用 [CC BY-NC-ND-4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可，即**署名-非商业性使用-禁止演绎 4.0 国际**协议。
