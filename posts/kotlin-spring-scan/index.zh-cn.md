@@ -4,7 +4,7 @@ date: 2023-12-16T00:00:00+08:00
 lastmod: 2023-12-26T00:00:00+08:00
 draft: false
 description: "用自己的方式实现一个只属于你的 Spring。"
-featuredImage: "featured-image.webp"
+featuredImage: "cover.webp"
 
 tags: ["Spring", "Kotlin", "技术"]
 categories: ["Spring"]

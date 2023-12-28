@@ -4,7 +4,7 @@ date: 2023-08-13T00:00:00+08:00
 lastmod: 2023-12-28T00:00:00+08:00
 draft: false
 description: "Spring 6 新功能"
-featuredImage: "featured-image.webp"
+featuredImage: "cover.webp"
 tags: ["Spring"]
 
 lightgallery: true
@@ -380,7 +380,7 @@ problemDetail.title.io.github.cgglyle.system.exception.SystemException=Oops! Sys
 而你现在的行为属于直接设置最终产物的值，而国际化部分在你设置启用后会替换掉你手动设置的值。
 也就是说， `ResponseEntityExceptionHandler` 并不会处理 `ProblemDetails` 中的值，它只是最终产物。
 
-{{< mermaid >}}flowchart TD;
+{{< mermaid >}} flowchart TD;
 A[是否配置了国际化] -->|有| B(MessageDetailCode 是否为空)
 A --> |没有| G
 B --> |空| D(调用 Spring 的 MessageSource 处理默认的国际化配置)
