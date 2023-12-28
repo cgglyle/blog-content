@@ -380,7 +380,17 @@ problemDetail.title.io.github.cgglyle.system.exception.SystemException=Oops! Sys
 而你现在的行为属于直接设置最终产物的值，而国际化部分在你设置启用后会替换掉你手动设置的值。
 也就是说， `ResponseEntityExceptionHandler` 并不会处理 `ProblemDetails` 中的值，它只是最终产物。
 
-![Spring 处理流程图 {{ cap: "处理流程图" }}](spring-problem-detail.png)
+{{< mermaid >}}flowchart TD;
+A[是否配置了国际化] -->|有| B(MessageDetailCode 是否为空)
+A --> |没有| G
+B --> |空| D(调用 Spring 的 MessageSource 处理默认的国际化配置)
+B --> |不为空| E(调用 Spring 的 MessageSource 处 MessageDetailCode 的配置)
+E --> F
+D --> F(调用结果是否为 NULL)
+F --> |为空| G(最终 Detail 是 defaultDetail)
+F --> |不为空| H(最终 Detail 是国际化结果)
+{{< /mermaid >}}
+
 
 实际上，如果你设置了国际化，你手动设置的 `title` 和 `detail` 都是无效的。你完全可以删除这部分。
 
