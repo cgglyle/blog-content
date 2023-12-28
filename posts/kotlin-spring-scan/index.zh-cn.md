@@ -51,7 +51,7 @@ this.javaClass.classLoader.getResource( path )
 
 需要注意的是，我们如何获得 `/home/spring/` 这个地址，因为我们没法确定传入的类路径到底是什么，我们这里也不能写死。我们需要编写一个动态的方式获取这个地址。好在我们可以邪道获取这个地址。
 
-我们可以通过获取 `""` 这个空地址来得到类路径，也就是：
+我们可以通过获取 `“”` 这个空地址来得到类路径，也就是：
 
 ```kotlin
 this.javaClass.classLoader.getResource("")
