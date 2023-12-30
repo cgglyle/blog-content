@@ -2,7 +2,7 @@
 title: "我的博客会出现什么元素呢？"
 date: 2022-10-29T00:00:00+08:00
 draft: false
-featuredImage: "hexo_init_blog_page.webp"
+featuredImage: "cover.webp"
 description: "不知道，不知道，我也不知道"
 
 tags: ["杂谈", "Blog"]

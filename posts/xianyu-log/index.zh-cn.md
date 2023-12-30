@@ -3,7 +3,7 @@ title: "咸鱼买货经历"
 date: 2023-12-11T00:00:00+08:00
 draft: false
 description: "我感觉我是亏了TAT"
-featuredImage: "featured-image.webp"
+featuredImage: "cover.webp"
 
 tags: ["life"]
 

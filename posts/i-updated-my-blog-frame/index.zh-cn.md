@@ -3,7 +3,7 @@ title: "我更新了我博客的框架"
 date: 2023-06-13T00:00:00+08:00
 draft: false
 description: "也许，折腾也是一种爱好呢？"
-featuredImage: "featured-image.webp"
+featuredImage: "cover.webp"
 
 tags: ["杂谈", "Blog", "技术"]
 lightgallery: true
