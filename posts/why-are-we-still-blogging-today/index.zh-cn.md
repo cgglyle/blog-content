@@ -2,7 +2,7 @@
 title: "今朝为什么还要写博客"
 date: 2022-10-25T00:00:00+08:00
 draft: false
-featuredImage: "hexo_init_blog_page.webp"
+featuredImage: "cover.webp"
 
 tags: ["杂谈", "Blog"]
 

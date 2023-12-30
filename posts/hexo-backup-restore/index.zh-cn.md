@@ -3,7 +3,7 @@ title: "Hexo 博客站点的备份与恢复"
 date: 2022-10-21T00:00:00+08:00
 draft: false
 description: "相信你也不想你站点炸掉的事情被读者知道吧。（笑"
-featuredImage: "hexo_init_blog_page.webp"
+featuredImage: "cover.webp"
 
 tags: ["Hexo"]
 series: ["Hexo 指北"]
