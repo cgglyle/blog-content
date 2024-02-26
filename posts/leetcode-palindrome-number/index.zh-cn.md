@@ -182,3 +182,27 @@ public boolean isPalindrome(int x) {
 这样我们就可以得到反转值的一半了。而且可以发现如果数字的位数是奇数，中间会有一个多余值 `2` 在判断的时候我们只要移除多余值就好。
 
 这样，我们的时间复杂度是 $ O(\log_{10}(x)) $ 空间复杂度是 $O(1)$，整体上是优于上个算法的，因为整个算法只需要处理一半的值。
+
+---
+
+### 纠错
+
+需要注意的是 `0` 也是回文数，需要注意。
+
+```java {linenos=table,hl_lines=[2]}
+    public boolean isPalindrome(int x) {
+        if (x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+        }
+
+        int endNumber = 0;
+        while (endNumber < x) {
+            endNumber = x % 10 + endNumber * 10;
+            x = x / 10;
+        }
+        if (endNumber == x || endNumber / 10 == x) {
+            return true;
+        }
+        return false;
+    }
+```
