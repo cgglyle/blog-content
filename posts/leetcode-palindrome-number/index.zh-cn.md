@@ -1,7 +1,6 @@
 ---
 title: "Leetcode - 回文数问题解析"
-date: 2024-02-22T00:00:00+08:00
-lastmod: 2024-02-22T00:00:00+08:00
+date: 2024-02-23T00:00:00+08:00
 draft: false
 description: "回文数问题解析"
 featuredImage: "cover.webp"
@@ -15,10 +14,10 @@ math:
   enable: true
 ---
 
-<!--more-->
 
 开始先吐槽一下：Leetcode 的代码编辑器真的是太难受了，没有智能提示，也不能 Debug，
 需要每个月交 79！！这也太贵了！
+<!--more-->
 
 {{< admonition warning"注意" >}}
 因为最近想要去欧美发展，而那边更注重算法，所以想开始学习算法并练习。所以，此系列文章可能都会比较啰嗦，
@@ -28,9 +27,8 @@ math:
 ## TL;DR
 
 ```java
-// One-pass Hash Table
 public boolean isPalindrome(int x) {
-    if (x < 0 || x % 10 == 0) {
+    if (x < 0 || (x % 10 == 0 && x != 0)) {
         return false;
     }
 
