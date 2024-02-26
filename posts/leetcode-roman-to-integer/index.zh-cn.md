@@ -14,6 +14,8 @@ math:
   enable: true
 ---
 
+<!--more-->
+
 ## TL;DR
 
 ```java
